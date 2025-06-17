@@ -3,7 +3,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('🚀 Hello from auto-deployed API v1!');
+  res.end('🚀 Hello from auto-deployed API v1 and this one is for checking that pipeline is working fine!');
 });
 
 server.listen(3001, () => {
